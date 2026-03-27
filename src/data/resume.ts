@@ -91,6 +91,15 @@ export const resumeData = {
   ],
   certifications: [
     {
+      name: "Certified Information Systems Security Professional (CISSP)",
+      issuer: "Infosec",
+      date: "2026",
+      id: "Credential ID: 2175V8QL6RAK",
+      icon: Award,
+      color: "text-indigo-500",
+      description: "Globally recognized certification validating expertise in risk management, information security, and security architecture."
+    },
+    {
       name: "ISO/IEC 27001 Lead Auditor",
       issuer: "MasterMind",
       date: "2023",
