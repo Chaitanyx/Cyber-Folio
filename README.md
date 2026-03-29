@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# vfolio — Cybersecurity-Themed Portfolio
 
-## Getting Started
+A modern, high-performance portfolio website with a cyber aesthetic, interactive animations, and responsive design. Showcase your skills, projects, and achievements with style.
 
-First, run the development server:
+## ✨ Features
+
+- **Interactive Hero Screen** — Terminal-style animated introduction with smooth cascading text effects
+- **Animated Components** — Fluid transitions and micro-interactions powered by motion physics
+- **Dark Mode Support** — Toggle between light and dark themes with system preference detection
+- **Responsive Design** — Fully optimized for desktop, tablet, and mobile devices
+- **Dynamic Backgrounds** — Custom SVG patterns, floating elements, and gradient overlays
+- **Skills Grid** — Organized by categories with color-coded icons
+- **Project Vault** — Showcase your projects with descriptions and focus areas
+- **Timeline** — Display work experience and milestones chronologically
+- **Certifications** — Highlight your credentials and achievements
+- **System Logs** — Terminal-style activity feed for personality
+- **Threat Ticker** — Real-time security threat visualization
+- **Analytics** — Built-in with Vercel Analytics for tracking engagement
+- **PDF Resume Integration** — Parse and display resume data dynamically
+
+## 🛠 Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| **Framework** | [Next.js](https://nextjs.org) 16.2.1 |
+| **UI Library** | [React](https://react.dev) 19.2.4 |
+| **Language** | TypeScript 5 |
+| **Styling** | [Tailwind CSS](https://tailwindcss.com) 4 with PostCSS |
+| **Animations** | [Framer Motion](https://www.framer.com/motion/) 12.38.0 |
+| **Icons** | [Lucide React](https://lucide.dev) 1.6.0 |
+| **Theming** | [next-themes](https://github.com/pacocoursey/next-themes) 0.4.6 |
+| **Utilities** | clsx 2.1.1, tailwind-merge 3.5.0 |
+| **Document Parsing** | pdf-parse 2.4.5 |
+| **Analytics** | [@vercel/analytics](https://vercel.com/analytics) 2.0.1 |
+| **Linting** | ESLint 9 |
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Node.js 18+ and npm/yarn/pnpm/bun
+
+### Installation & Development
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view your portfolio in the browser. Changes auto-refresh as you edit.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Production Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+### Linting
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run lint
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📦 Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Deploy easily to [Vercel](https://vercel.com):
 
-## Deploy on Vercel
+```bash
+npm install -g vercel
+vercel
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Or connect your repository to Vercel for automatic deployments on push.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 License
+
+Built with cybersecurity excellence in mind.
